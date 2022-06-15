@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet" />
+    <title>Summer Soker Coaching</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-----------------------------------------------------------------NAVBAR----------------------------------------------------------------->
+
+    <header>
+      <div class="container-outer navbar">
+        <div class="logo-left">
+          <img src="img/logo3.png" alt="logo" class="logo" />
+        </div>
+
+        <div class="menu-header">
+          <i class="lni lni-menu"></i>
+        </div>
+        <div class="menu-content">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Coaching</a></li>
+            <li><a href="#">About</a></li>
+            <li>
+              <a href="#" class="dropBtn"
+                >Services<i class="lni lni-chevron-down"></i
+              ></a>
+              <ul class="dropdown">
+                <li>
+                  <a href="#" class="dropBtn2"
+                    >Sessions<i class="lni lni-chevron-right"></i
+                  ></a>
+                  <ul class="dropdown2">
+                    <li><a href="#">Single Session</a></li>
+                    <li><a href="#">5 Sessions</a></li>
+                    <li><a href="#">15 Sessions</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" class="dropBtn3"
+                    >Morning Ritual<i class="lni lni-chevron-right"></i
+                  ></a>
+                  <ul class="dropdown3">
+                    <li><a href="#">CET (Europe)</a></li>
+                    <li><a href="#">Eastern TZ</a></li>
+                    <li><a href="#">Pacific TZ</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#">Freebies</a></li>
+            <li>
+              <a href="#" class="cartBtn"
+                ><i class="lni lni-cart-full" id="cart-icon"></i
+              ></a>
+
+              <!------  Cart  -----
+
+              <div class="cart">
+                <h4 class="cart-title">Your Cart</h4>
+
+                <!------  Cart Content -----
+
+                <div class="cart-content">
+                  <div class="cart-box">
+                    <!--img--
+              <div class="detail-box">
+                <div class="cart-product-title">Single session</div>
+                <div class="cart-price">$60</div>
+              </div>
+
+              <!------ Remove Cart -----
+                    <div>
+                      <input type="number" value="1" class="cart-quantity" />
+                      <i class="lni lni-trash-can cart-remove"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <!------ Cart Total -----
+
+                <div class="total">
+                  <div class="total-title">Total</div>
+                  <div class="total-price">$0</div>
+                </div>
+
+                <!------ Buy Button -----
+
+                <button type="button" class="button btn-buy">Buy</button>
+
+                <!------ Close Cart -----
+
+                <i class="lni lni-exit" id="close-cart"></i>
+              </div> ----->
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div class="clear"></div>
+
+    <!----------------------------------------------------------HOME HERO------------------------------------------------------------------>
+
+    <section class="home-hero">
+      <div class="container">
+        <div class="headline">
+          <h1>Remember:</h1>
+          <div class="group">
+            <div class="quote">
+              <p>"You are the sky.</p>
+              <p>Everything else is just the weather."</p>
+            </div>
+
+            <div class="buttons">
+              <a
+                href="login/login.html"
+                target="_blank"
+                class="button btn-login"
+                >Sign in / Sign up</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="clear"></div>
+
+    <!----------------------------------------------------------------WELCOME---------------------------------------------------------------->
+
+    <section class="home-about gradient slide-in from-left">
+      <div class="container">
+        <div class="home-about-textbox">
+          <h1>So Glad You're Here!</h1>
+          <h2>Can I share something with you?</h2>
+          <h3>Motherhood can be hard. And it's harder when you do it alone.</h3>
+          <p>
+            I made the decision early in my motherhood journey,
+            <strong>that mothering doesn't have to happen alone.</strong> At
+            each stage, I had a community of moms that I chose to do mothering
+            with. I chose to be vulnerable, open and imperfect with. And they
+            did the same.
+          </p>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,192L48,170.7C96,149,192,107,288,117.3C384,128,480,192,576,208C672,224,768,192,864,186.7C960,181,1056,203,1152,192C1248,181,1344,139,1392,117.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <div class="clear"></div>
+
+    <!---------------------------------------------------------------SESSIONS---------------------------------------------------------------->
+
+    <section class="session">
+      <div class="container">
+        <div class="row shop-content">
+          <figure class="col product-box">
+            <img src="img/session1.jpg" />
+            <span class="colspan product-title">Single Session</span>
+            <figcaption class="col-desc">
+              <span class="price">$60</span>
+              <ul class="session-info">
+                <li>One 45 mins</li>
+                <li>Online or Phone</li>
+                <li>Sessions</li>
+              </ul>
+              <a href="#" class="button add-cart">Add Cart</a>
+            </figcaption>
+          </figure>
+          <figure class="col product-box">
+            <img src="img/session2.jpg" />
+            <span class="colspan product-title">Five Sessions</span>
+            <figcaption class="col-desc">
+              <span class="price">$300</span>
+              <ul class="session-info">
+                <li>5 x 45 mins</li>
+                <li>Online or Phone</li>
+                <li>Sessions</li>
+              </ul>
+              <a href="#" class="button add-cart">Add Cart</a>
+            </figcaption>
+          </figure>
+          <figure class="col product-box">
+            <img src="img/session3.jpg" />
+            <span class="colspan product-title">Fifteen Sessions</span>
+            <figcaption class="col-desc">
+              <span class="price">$600</span>
+              <ul class="session-info">
+                <li>15 x 45 mins</li>
+                <li>Online or Phone</li>
+                <li>Sessions</li>
+              </ul>
+              <a href="#" class="button add-cart">Add Cart</a>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <div class="clear"></div>
+
+    <!-----------------------------------------------------------MORNING RITUAL------------------------------------------------------------------>
+
+    <section class="morning-ritual">
+      <div class="container">
+        <div class="row ritual">
+          <figure class="col product-box">
+            <img src="img/morning-ritual.jpg" />
+            <span class="colspan product-title">Morning Ritual</span>
+            <figcaption class="col-desc">
+              <span class="price">$110</span>
+              <ul class="session-info">
+                <li>Every morning 1 hr</li>
+                <li>For 21 days</li>
+                <li>Group Sessions</li>
+              </ul>
+              <a href="#" class="button add-cart"
+                >See Time Zones <i class="lni lni-chevron-right-circle"></i
+              ></a>
+            </figcaption>
+          </figure>
+          <figure class="col time-zones">
+            <div class="mini-row top slide-in from-right">
+              <p>6 am - European Central Time</p>
+              <a href="#" class="button add-cart mini">Add Cart</a>
+            </div>
+            <div class="mini-row middle slide-in from-right">
+              <p>6 am - Eastern Time (USA)</p>
+              <a href="#" class="button add-cart mini">Add Cart</a>
+            </div>
+            <div class="mini-row bottom slide-in from-right">
+              <p>6 am - Pacific Time (USA)</p>
+              <a href="#" class="button add-cart mini">Add Cart</a>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <div class="clear"></div>
+
+    <!----------------------------------------------------------------TESTIMONIALS------------------------------------------------------------------>
+
+    <section class="testimonial-grid">
+      <article
+        class="testimonial grid-col-span-2"
+        style="background-color: #0095cc; color: #fff"
+      >
+        <div class="flex">
+          <div>
+            <h2 class="name">Peter Briggs</h2>
+            <p class="position">'Small Business Owner'</p>
+          </div>
+          <p>
+            "Client success and they have an array of tools and expertise to
+            make that happen, from digital marketing to SEO, to website design.
+            Best of all, they have a dedicated and responsive team that is open
+            to ideas! Truly grateful for all the efforts they've put into making
+            our company a success today!"
+          </p>
+        </div>
+      </article>
+      <article
+        class="testimonial"
+        style="background-color: #a4f086; color: #333"
+      >
+        <div class="flex">
+          <div>
+            <h2 class="name">Duy Khanh</h2>
+            <p class="position">'Lorem, ipsum.'</p>
+          </div>
+          <p>
+            "Very professional and dedicated team. Lifting lots of burden off
+            our shoulders. Would strongly recommended."
+          </p>
+        </div>
+      </article>
+      <article
+        class="testimonial"
+        style="background-color: #47e0a7; color: #333"
+      >
+        <div class="flex">
+          <div>
+            <h2 class="name">Maria Ortega</h2>
+            <p class="position">'Personal Trainer'</p>
+          </div>
+          <p>
+            "Really boosted our SEM campaign and maximised reach to our target
+            audience.This resulted in a dramatic 3 fold increase in our online
+            sales channel."
+          </p>
+        </div>
+      </article>
+      <article
+        class="testimonial grid-col-span-2"
+        style="background-color: #00b1d3; color: #fff"
+      >
+        <div class="flex">
+          <div>
+            <h2 class="name">Paul Viet</h2>
+            <p class="position">'Lorem ipsum dolor sit.'</p>
+          </div>
+          <p>
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+            omnis voluptates nobis cumque provident dignissimos? Explicabo
+            quaerat fuga, perspiciatis, vitae deserunt unde enim soluta cum,
+            voluptatum non facilis! Illo ut dignissimos, dicta vitae aliquam
+            praesentium maxime.""
+          </p>
+        </div>
+      </article>
+      <article
+        class="testimonial"
+        style="background-color: #00cbc5; color: #fff"
+      >
+        <div class="flex">
+          <div>
+            <h2 class="name">Eileen Wong</h2>
+            <p class="position">'Lorem ipsum dolor sit amet.'</p>
+          </div>
+          <p>
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            possimus facilis laboriosam odit itaque numquam non explicabo
+            distinctio, nemo quasi est tenetur eos velit aliquid veniam sed,
+            soluta dolores quae aut, qui vel deleniti corrupti! Illum nihil
+            laborum, fugiat, tenetur natus, expedita facere possimus non minus
+            nesciunt quam vero. Rerum, cum hic? Porro labore temporibus
+            assumenda nihil, nemo quas deserunt atque corporis, voluptatibus non
+            vero ea? Quas sint eius magni?""
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <div class="clear"></div>
+
+    <!-----------------------------------------------------------------MODAL------------------------------------------------------------------>
+
+    <div class="modal" id="modal">
+      <img src="img/modalpic2.jpg" alt="" />
+      <div class="modal-body">
+        <h1>PAUSE</h1>
+        <h2>Take a deep breath</h2>
+        <h2>Exhale</h2>
+        <h2>Now you are ready</h2>
+        <button id="close" class="button button-modal">Continue</button>
+      </div>
+    </div>
+
+    <div id="overlay"></div>
+    <div class="clear"></div>
+
+    <!---------------------------------------------------------------FOOTER----------------------------------------------------------------->
+    <footer>
+      <div class="footer gradient-footer">
+        <div class="row-footer">
+          <div class="col-1">
+            <h3>useful Links</h3>
+            <a href="#">About</a>
+            <a href="#">Coaching</a>
+            <a href="#">Services</a>
+            <a href="#">Freebies</a>
+          </div>
+          <div class="col-2">
+            <h3>Newsletter</h3>
+
+            <form>
+              <input type="email" placeholder="Your email" required />
+              <br />
+              <button class="button btn-footer" type="submit">
+                Subscribe Now
+              </button>
+            </form>
+          </div>
+
+          <div class="col-3">
+            <h3>Contact</h3>
+            <p><i class="lni lni-map-marker"></i> 456 Whitman Avenue,</p>
+            <p>NYC, New York, USA</p>
+            <p><i class="lni lni-phone"></i> (+1) 565 - 123- 4567</p>
+          </div>
+        </div>
+        <div class="social">
+          <h3>Follow us</h3>
+          <a href="#"><i class="lni lni-facebook-filled"></i></a>
+          <a href="#"><i class="lni lni-twitter-filled"></i></a>
+          <a href="#"><i class="lni lni-instagram-original"></i></a>
+        </div>
+        <p class="copyright">&copy; Copyright All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>

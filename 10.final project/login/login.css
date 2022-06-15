@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  --color-primary: rgb(0, 149, 204);
+  --color-secondary: rgb(249, 249, 113);
+  --color-highlight: rgb(226, 99, 96);
+  --color-bground: rgb(230, 244, 241);
+  --color-green: rgb(71, 224, 167);
+}
+
+.container-form {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background: linear-gradient(180deg, rgb(0, 149, 204), rgb(155, 210, 147));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.card-outer {
+  width: 21rem;
+  height: 31rem;
+  box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.26);
+  perspective: 1000px;
+}
+
+.inner-box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      180deg,
+      rgb(0, 149, 204, 0.65),
+      rgb(249, 248, 113, 0.35)
+    ),
+    url(../img/signup.jpg) center center / cover;
+  padding: 3.5rem;
+  box-sizing: border-box;
+  backface-visibility: hidden;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
+.card-outer h2 {
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1.3rem;
+}
+
+.input-box {
+  width: 100%;
+  background: transparent;
+  border: 1.5px solid #fff;
+  margin: 0.4rem 0;
+  height: 2rem;
+  border-radius: 20px;
+  padding: 0 0.7rem;
+  box-sizing: border-box;
+  outline: none;
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  height: 2rem;
+  background: transparent;
+  border: 1.5px solid #fff;
+  margin: 2rem 0 0.7rem;
+  border-radius: 20px;
+  padding: 0 0.7rem;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+button:hover {
+  border-color: var(--color-highlight);
+  border: 2px solid var(--color-highlight);
+}
+
+.submit-btn {
+  position: relative;
+}
+
+.square {
+  margin-top: 2px;
+}
+
+span {
+  font-size: 0.8rem;
+  padding-left: 5px;
+}
+
+.card-outer .btn {
+  margin-top: 4.5rem;
+}
+
+.card-outer a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.card-outer a:hover {
+  text-decoration: 2px solid underline;
+}
